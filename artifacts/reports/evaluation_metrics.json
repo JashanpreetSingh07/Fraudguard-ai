@@ -1,0 +1,32 @@
+{
+  "dataset": {
+    "test_samples": 2235,
+    "test_frauds": 76,
+    "fraud_prevalence_pct": 3.4
+  },
+  "performance": {
+    "roc_auc": 0.9861,
+    "pr_auc": 0.5823,
+    "precision": 0.6636,
+    "recall": 0.9605,
+    "f1_score": 0.7849,
+    "precision_at_top_1pct": 0.5909,
+    "precision_at_top_2pct": 0.3864,
+    "precision_at_top_5pct": 0.6667
+  },
+  "confusion_matrix": {
+    "true_negatives": 2122,
+    "false_positives": 37,
+    "false_negatives": 3,
+    "true_positives": 73
+  },
+  "financial_impact": {
+    "total_fraud_exposure_dollars": 251888.71,
+    "fraud_loss_prevented_dollars": 251883.85,
+    "missed_fraud_dollars": 4.86,
+    "prevention_rate_pct": 100.0,
+    "investigation_overhead_dollars": 2750.0,
+    "net_dollars_saved": 249133.85,
+    "roi_percentage": 9059.4
+  }
+}
